@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#fr{
+    font-family: "Playfair Display SC", serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#efeito {
+    font-family: "Playfair Display SC", serif;
+}
+
+#fonte {
+    font-family: "Inconsolata", monospace;
+}
+
+#img-bg {
+    background-image: url(../img/Design\ sem\ nome.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+
+}
+
+#bg {
+    background-image: url(../img/Design\ sem\ nome2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+.sobre{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.card{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, 22rem);
+    justify-content: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
