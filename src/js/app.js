@@ -3,14 +3,16 @@ ScrollReveal().reveal('.animation1',{
     distance: '20px',
     duration: 1500,
     origin: 'left',
-    reset: true
+    reset: true,
+    easing: 'cubic-bezier(.23,-0.25,.35,1.28)',
 })
 ScrollReveal().reveal('.animation2',{
     delay: 300,
     distance: '20px',
     duration: 1500,
     origin: 'right',
-    reset: true
+    reset: true,
+    easing: 'cubic-bezier(.23,-0.25,.35,1.28)',
 })
 ScrollReveal().reveal('.animation3',{
     delay: 200,
