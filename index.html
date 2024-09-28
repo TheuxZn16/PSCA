@@ -8,17 +8,18 @@
     <link href="./src/css/output.css" rel="stylesheet">
     <link href="./src/css/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/dadff687ce.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
-    <nav class="bg-verde-nav">
+    <nav class="bg-verde-nav"> <!-- Inicio header -->
         <div class="flex justify-between px-4 h-20 items-center">
-            <div class="">
+            <div> <!-- Imagem do partido  -->
                 <a href="./index.html"><img class="w-44"
                         src="./src/img/Imagem_do_WhatsApp_de_2024-09-24_à_s__22.42.57_5c382d56-removebg-preview.png"
                         alt="Imagem do Partido Social Capitalista"></a>
             </div>
-            <div id="fr" class="flex justify-center items-center gap-3 text-verde-text">
+            <div id="fr" class="flex justify-center items-center gap-3 text-verde-text"> <!-- NAV  -->
                 <a href="./filie.html">
                     <p>Filie-se</p>
                 </a>
@@ -32,7 +33,7 @@
                 Mais poder de escolha, liberdade e educação.
             </h1>
         </div>
-    </nav>
+    </nav> <!-- Fim header -->
     <section class="flex justify-evenly items-center uppercase h-12 bg-white font-medium">
         <div><h2 class="fonte text-verde-text">Índice:</h2></div>
         <div><a href="#img-bg">
@@ -45,7 +46,7 @@
             <h2 class="fonte underline underline-offset-4 text-verde-text">Missão</h2>
         </a></div>
     </section>
-    <section>
+    <section class="animation3">
         <div id="img-bg" class="flex justify-center items-center w-full h-36 text-7xl">
             <h1 class="text-white sobre">SOBRE</h1>
         </div>
@@ -62,33 +63,33 @@
             <h1 class="text-white sobre">VALORES</h1>
         </div>
         <div class="card bg-verde-nav py-2">
-            <div class="p-2 rounded-md bg-azul-bg">
+            <div class="p-2 rounded-md bg-azul-bg animation1">
                 <h3 class="text-lg font-bold">Educação de Qualidade</h3>
                 <p>Acreditamos que a educação é a principal ferramenta de transformação social. Defendemos um sistema educacional forte, inclusivo e acessível, que promova o desenvolvimento integral de cada cidadão. Somente por meio da educação de base sólida podemos garantir uma sociedade mais justa e capacitada para enfrentar os desafios do futuro.</p>
             </div>
-            <div class="p-2 rounded-md bg-amarelo-bg">
+            <div class="p-2 rounded-md bg-amarelo-bg animation2">
                 <h3 class="text-lg font-bold">Valorização do Poder de Compra</h3>
                 <p>Lutamos pela preservação e ampliação do poder de compra da população. Entendemos que, para promover uma economia saudável e equilibrada, é essencial garantir condições dignas de trabalho e salários que permitam uma vida estável. Isso passa por políticas que favoreçam o crescimento econômico sustentável e a equidade social.</p>
             </div>
-            <div class="p-2 rounded-md bg-vermelho-bg">
+            <div class="p-2 rounded-md bg-vermelho-bg animation1">
                 <h3 class="text-lg font-bold">Liberdade Individual</h3>
                 <p>Acreditamos na importância da liberdade individual em todas as esferas da vida. Defendemos o direito de cada cidadão de fazer suas próprias escolhas, seja no campo econômico, político ou social, desde que respeitem os direitos dos outros. A autonomia e a responsabilidade caminham lado a lado na construção de uma sociedade mais plural e democrática.</p>
             </div>
-            <div class="p-2 rounded-md bg-azul-bg">
+            <div class="p-2 rounded-md bg-azul-bg animation2">
                 <h3 class="text-lg font-bold">Igualdade de Oportunidades</h3>
                 <p>Nosso partido trabalha para garantir que todos tenham as mesmas chances de sucesso, independentemente de sua origem ou condição social. Acreditamos que cada pessoa deve ter acesso a oportunidades justas, especialmente no que diz respeito à educação e ao mercado de trabalho, promovendo assim uma sociedade mais equitativa e inclusiva.</p>
             </div>
-            <div class="p-2 rounded-md bg-amarelo-bg">
+            <div class="p-2 rounded-md bg-amarelo-bg animation1">
                 <h3 class="text-lg font-bold">Cidadania Ativa e Participativa</h3>
                 <p>Defendemos um modelo de democracia que encoraje a participação ativa dos cidadãos em decisões políticas e sociais. Acreditamos que um povo educado e consciente de seus direitos é capaz de contribuir de forma mais eficaz para o fortalecimento das instituições democráticas e para o bem-estar coletivo.</p>
             </div>
-            <div class="p-2 rounded-md bg-vermelho-bg">
+            <div class="p-2 rounded-md bg-vermelho-bg animation2">
                 <h3 class="text-lg font-bold">Sustentabilidade e Responsabilidade Social</h3>
                 <p>Acreditamos que o desenvolvimento econômico deve ser compatível com a preservação do meio ambiente e com a promoção do bem-estar das futuras gerações. Defendemos políticas que unam progresso econômico com práticas sustentáveis, respeitando os limites naturais e garantindo um futuro equilibrado para todos.</p>
             </div>
         </div>
     </section>
-    <section id="missao" class="bg-bege-bg">
+    <section id="missao" class="bg-bege-bg animation3">
         <div class="flex justify-center items-center sobre p-6 gap-14">
             <h1 class="text-8xl">MISSÃO</h1>
         </div>
@@ -100,6 +101,9 @@
     <footer class="bg-black text-white text-center text-sm">
         <p>Todos os direitos reservados</p>
     </footer>
+    <script src="./src/js/app.js"></script>
 </body>
+
+</html>
 
 </html>
