@@ -8,6 +8,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.animation1 .animation2 .animation3{
+    visibility: hidden;
+}
 #fr{
     font-family: "Playfair Display SC", serif;
     font-weight: bold;
